@@ -1,0 +1,18 @@
+.custom-heading {
+  border-top: 2px solid #d5d5d5; 
+  border-right: 2px solid #d5d5d5; 
+  display: inline-block;
+  padding-top: 5px;
+  font-weight: bold;
+  color: rgb(57, 152, 253);
+  padding-right: 10px; 
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.custom-hr {
+  margin: 0; 
+  margin-left: 115px;
+  border: none; 
+  border-bottom: 2px solid #d5d5d5;
+}

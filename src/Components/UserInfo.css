@@ -1,0 +1,15 @@
+.box-txt {
+  border: 3px solid #898989; 
+  display: inline-block;
+  padding: 5px;
+  color: #898989;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 5px;
+}
+.txt {
+    color: #898989;
+    font-size: 16px;
+    width: 80px;
+    text-align: center;
+}
