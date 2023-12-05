@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  FaStar,
-  FaThumbsUp,
-  FaEye,
-  FaHeart,
-  FaGem,
-} from "react-icons/fa";
+import { FaStar, FaThumbsUp, FaEye, FaHeart, FaGem } from "react-icons/fa";
 
-import {BsPatchCheckFill} from "react-icons/bs";
+import { BsPatchCheckFill } from "react-icons/bs";
 
 import userImg from "../assets/haxxor.jpg";
 import coverImg from "../assets/cover.jpeg";
@@ -22,56 +16,25 @@ function UserInfo() {
         alt="Cover"
         style={{ maxHeight: "300px", width: "100%", objectFit: "cover" }}
       />
-      <div className="container">
-        <div className="row">
-          <img
-            className="img-fluid rounded-circle border border-secondary mt-3"
-            src={userImg}
-            alt="Profile"
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-              width: "180px",
-              maxHeight: "180px",
-              objectFit: "cover",
-              transform: "translate(-0%, -40%)",
-              zIndex: 1,
-            }}
-          />
 
-          <div className="col mt-3">
-            <div className="font-weight-bold text-lg">
-              <div className="d-flex align-items-center">
-                <div className="mr-2" style={{ fontSize: "22px", fontFamily: "sans-serif" }}>
-                  Devesh Pandey
-                </div>
-                <FaGem className="ml-1" style={{ color: "#553f8a" }} />
-                <BsPatchCheckFill
-                  className="ml-1"
-                  style={{ color: "#60e69e" }}
-                />
-              </div>
+      <div className="user_info">
+        <div className="user_img">
+          <img className="img_style" src={userImg} alt="Profile" />
+        </div>
+        <div className="user_content">
+          <div className="flex1">
+            <h1>Devesh Pandey</h1>
+            <FaGem style={{ color: "#553f8a" }} />
+            <BsPatchCheckFill style={{ color: "#60e69e" }} />
+          </div>
+          <div className="flex2">
+            <div>
+              <span className="number">6482</span>
+              <p className="text">Followers</p>
             </div>
-
-            <div className="d-flex justify-content">
-              <div className="text-dark">
-                <div
-                  className="font-weight-bold text-lg box-txt"
-                  style={{ width: "80px" }}
-                >
-                  6482
-                </div>
-                <div className="text-sm txt">Followers</div>
-              </div>
-              <div className="text-dark" style={{ marginLeft: "30px" }}>
-                <div
-                  className="font-weight-bold text-lg box-txt"
-                  style={{ width: "80px" }}
-                >
-                  245
-                </div>
-                <div className="text-sm txt">Following</div>
-              </div>
+            <div>
+              <span className="number">245</span>
+              <p className="text">Following</p>
             </div>
           </div>
         </div>
