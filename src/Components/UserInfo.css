@@ -95,23 +95,6 @@
   padding: 0px;
 }
 
-.user_content .flex1 {
-.user_content {
-    display: flex;
-    flex-direction: column;
-    background-color: lightblue;
-    width: 160px;
-  }
-
-  .user_content .flex1 {
-    justify-content: space-between;
-  }
-
-  .flex1 h1 {
-    font-size: 16px;
-  }
-}
-
 .flex1 h1 {
   font-size: 16px;
   font-weight: 700;

@@ -19,7 +19,11 @@ function UserInfo() {
 
       <div className="user_info">
         <div className="user_img">
-          <img className="img_style" src={userImg} alt="Profile" />
+          <img
+            className="img_style border border-secondary"
+            src={userImg}
+            alt="Profile"
+          />
         </div>
         <div className="user_content">
           <div className="flex1">
@@ -33,7 +37,7 @@ function UserInfo() {
               <p className="text">Followers</p>
             </div>
             <div>
-              <span className="number">245</span>
+              <span className="number">2245</span>
               <p className="text">Following</p>
             </div>
           </div>
